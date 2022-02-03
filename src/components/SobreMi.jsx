@@ -11,7 +11,7 @@ function Content() {
                     programación, con experiencia en
                     diseño, instalación, pruebas y
                     mantenimiento de sistemas de
-                    software.. Buenas habilidades de
+                    software... Buenas habilidades de
                     colaboración dentro de un equipo
                     productivo.
                     </p>
