@@ -41,7 +41,7 @@ function Content() {
                 <a href="https://github.com/jsanti850107/reto4cbackv2.0.git">Ver frontend en GitHub</a>
             </div>
             <div className='tarjeta'>
-                <h2>Contact</h2>
+                {/* <h2>Contact</h2> */}
             </div>
         </>
     )
