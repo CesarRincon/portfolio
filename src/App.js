@@ -1,8 +1,4 @@
 import './App.css';
-import { Route, Routes } from 'react-router-dom';
-import Bar from './components/Bar';
-import Content from './components/SobreMi';
-import Header from './components/Header';
 import { Intro } from './components/Intro';
 import { About } from './components/About';
 
