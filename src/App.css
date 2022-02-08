@@ -43,7 +43,7 @@ background-color: transparent;
   grid-template-areas: "tarjeta1 tarjeta2 tarjeta3"
   "contact contact contact";
   width: 100%;
-  max-width: 99%;
+  max-width: 100%;
   grid-gap: 10px;
 }
 

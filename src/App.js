@@ -3,13 +3,17 @@ import { Route, Routes } from 'react-router-dom';
 import Bar from './components/Bar';
 import Content from './components/SobreMi';
 import Header from './components/Header';
+import { Intro } from './components/Intro';
+import { About } from './components/About';
 
 function App() {
   return (
     <div className="App">
-      <Routes>
+      {/* <Routes>
         <Route path="/" element={<Bar content={<Content/>} header={<Header />}/>} />
-      </Routes>
+      </Routes> */}
+      <Intro />
+      <About />
     </div>
   );
 }
