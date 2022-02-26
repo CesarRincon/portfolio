@@ -25,7 +25,7 @@
 }
 
 .aImg {
-    background-color: aquamarine;
+    background-color: rgb(122, 122, 122);
     width: 100%;
     height: 100%;
     border-radius: 30px;
@@ -49,4 +49,33 @@
 
 .aDesc {
     font-weight: 300;
+}
+
+@media screen and (max-width: 480px) {
+    .a  {
+        flex-direction: column;
+        text-align: center;
+        margin-top: 50px
+    }
+
+    .aTitle {
+        margin-top: 10px;
+    }
+
+    .aLeft  {
+        width: 100%;        
+    }
+    
+    .aCard  {
+        height: 30vh; 
+    }
+
+    .aCard.aBg  {
+        display: none;
+    }
+
+    .aRight {
+        padding: 20px;
+        
+    }
 }

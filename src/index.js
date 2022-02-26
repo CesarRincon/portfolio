@@ -4,11 +4,14 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { HashRouter } from 'react-router-dom';
+import { ThemeProvider } from './context'
 
 ReactDOM.render(
   <React.StrictMode>
     <HashRouter>
-      <App />
+      <ThemeProvider>
+        <App />
+      </ThemeProvider>
     </HashRouter>
   </React.StrictMode>,
   document.getElementById('root')

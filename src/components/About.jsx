@@ -1,13 +1,19 @@
 import styles from './About.module.css'
-import imgs from '../img/imagenes' 
+import imgs from '../img/imagenes'
+import { useContext } from 'react'
+import { ThemeContext } from '../context'
 
 export function About() {
+
+    const theme = useContext(ThemeContext);
+    const darkMode = theme.state.darkMode;
+
     return (
         <div className={styles.a}>
             <div className={styles.aLeft}>
-                <div className={`${styles.aCard} ${styles.aBg}`}></div>
+                <div style={{ backgroundColor: darkMode && "rgb(55, 130, 192)" }} className={`${styles.aCard} ${styles.aBg}`}></div>
                 <div className={styles.aCard}>
-                    <img src={imgs.img3} alt="" className={styles.aImg}/>
+                    <img src={imgs.img3} alt="" className={styles.aImg} />
                 </div>
             </div>
             <div className={styles.aRight}>
