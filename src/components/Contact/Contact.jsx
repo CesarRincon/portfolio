@@ -24,8 +24,6 @@ export function Contact() {
             });
 
         document.getElementById('form').reset();
-
-
     }
 
     return (
@@ -56,7 +54,7 @@ export function Contact() {
                 </div>
                 <div className={styles.cRight}>
                     <p className={styles.cDesc}>
-                        <b>What's is your story?</b> Get in touch. Always available for freelancing if the right project comes along me.
+                        <b>Cúal es tu historia?</b> Escribeme. Siempre disponible para trabajar si surge el proyecto adecuado.
                     </p>
                     <form ref={formRef} onSubmit={handleSubmit} id='form'>
                         <input style={{color: darkMode && "white"}} type="text" placeholder='Nombre' name='user_name' />

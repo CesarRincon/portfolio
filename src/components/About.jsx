@@ -18,8 +18,8 @@ export function About() {
             </div>
             <div className={styles.aRight}>
                 <h1 className={styles.aTitle} >About Me</h1>
-                <p className={styles.aSub}>It is a long established fact that reader will be redeable content. </p>
-                <p className={styles.aDesc}>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi sint nemo dolorem iusto placeat magni quam nulla dignissimos labore, molestiae esse officia, eveniet mollitia illum deserunt. Autem animi sunt voluptatibus.</p>
+                <p className={styles.aSub}>Te hablaré un poco de mi</p>
+                <p className={styles.aDesc}>Desarrollador con buena lógica de programación, con experiencia en diseño, instalación, pruebas y mantenimiento de sistemas de software... Buenas habilidades de colaboración dentro de un equipo productivo..</p>
             </div>
         </div>
     )
